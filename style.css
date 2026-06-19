@@ -1,3 +1,9 @@
+body {
+    background-color: lightcyan;
+/* Not sure why this works without adding px after 0 as that was needed for the 8px margin below*/
+    margin: 0;
+}
+
 .navbar {
     background-color: slategray;
 /* TODO: Need to maybe mess with margin defaults to cover full width. 200% height doesn't work but px does. Has to be a better way than a hardcoded amount to account for smaller resolution scaling. Need to check if there's a non-flexbox way of doing this. Maybe check how to do a gradient or an image on the navbar.*/
@@ -5,12 +11,15 @@
     align-items: center;
     width: 100%;
     height: 50px;
+    margin: 0;
 }
 
 .nav-spacing {
     padding: 5px;
 }
 
-body {
-    background-color: lightcyan;
+.default {
+    margin: 8px;
 }
+
+/* Removing margin to do the navbar and then adding it back after doesn't look very clean. Need to find another way. */
