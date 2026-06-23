@@ -23,3 +23,21 @@ body {
 }
 
 /* Removing margin to do the navbar and then adding it back after doesn't look very clean. Need to find another way. */
+
+h1 {
+    text-align: center;
+}
+
+.home-text {
+    text-align: center;
+}
+
+.center-img {
+    display: grid;
+    place-items: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
