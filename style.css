@@ -1,6 +1,6 @@
 body {
     background-color: lightcyan;
-/* Not sure why this works without adding px after 0 as that was needed for the 8px margin below*/
+/* Not sure why this works without adding px after 0 as that was needed for the 8px margin on .default*/
     margin: 0;
 }
 
